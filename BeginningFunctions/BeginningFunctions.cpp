@@ -21,18 +21,30 @@ void printListContents(std::vector<int> nums)
 {
 	for (int i = 0; i < nums.size(); ++i) //size means the number of things in the list 
 	{
-		std::cout << nums[i] << "\n";
+		std::cout << nums[i] << "\n"; //the [] means "index of"
 	}
 }
-int main()
+
+void demoRandomShufflingOfAnArray()
 {
-	std::vector<int> nums = { 8, 6, 7, 5, 3, 0, 9 }; //a vector is a LIST 
+	std::vector<int> nums = { 1, 2, 3, 4, 5, 6, 7, 8 }; //a vector is a LIST 
 
 	//requires <algorithm> header file: 
 	std::random_shuffle(nums.begin(), nums.end()); //let's just not worry about "begin" and "end" things for now
 
-	printListContents(nums); 
+	printListContents(nums);
+}
 
+int main()
+{
+
+	int bloodGlucoseConcentration = LibrarySpace::measuredBloodGlucoseLevel();
+
+	LibrarySpace::analyseBloodGlucoseLevel(bloodGlucoseConcentration);
+
+	//std::cout << "You said your blood glucose concentration = " << bloodGlucoseConcentration << " mg/dL\n";
+
+	
 
 	//using namespace MySpecialSpace; 
 
@@ -42,7 +54,7 @@ int main()
 	//doSomething(); 
 
 	//int a; 
-	//int a; 
+	//int a; //this generates a "variable redefinition error" (this relates to #pragma once at top of header file)
 
 	//"call the `showVideoOfCat` function: 
 	//showVideoOfCat();
