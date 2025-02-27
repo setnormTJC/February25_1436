@@ -3,8 +3,6 @@
 
 namespace LibrarySpace
 {
-
-
 	int measuredBloodGlucoseLevel()
 	{
 		std::cout << "Enter your blood glucose concentration (in units milligrams per deciliter - mg/dL):\n";
