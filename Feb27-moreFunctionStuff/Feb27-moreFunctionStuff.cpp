@@ -23,7 +23,7 @@ void demoDEEPCopying()
 {
 	int a = 123;
 
-	int & DEEPcopyOfA = a;
+	int & DEEPcopyOfA = a; //the variable named DEEPcopyOfA is called a "reference variable"
 
 	std::cout << "a (the 'original' variable) is: " << a << "\t AND the DEEP copy is: " << DEEPcopyOfA << "\n";
 

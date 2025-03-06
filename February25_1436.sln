@@ -7,6 +7,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BeginningFunctions", "Begin
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Feb27-moreFunctionStuff", "Feb27-moreFunctionStuff\Feb27-moreFunctionStuff.vcxproj", "{337B20F4-428A-46B1-BF72-3E803DE553A1}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OneStudentSUbmission of FACTORIAL assignemnt", "OneStudentSUbmission of FACTORIAL assignemnt\OneStudentSUbmission of FACTORIAL assignemnt.vcxproj", "{E1DECD11-7C94-47E5-A6DD-B9509AAFB222}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "March6 - finishing up function stuff", "March6 - finishing up function stuff\March6 - finishing up function stuff.vcxproj", "{F27E169E-2855-48EE-9DA0-4E7F33E8555D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +35,22 @@ Global
 		{337B20F4-428A-46B1-BF72-3E803DE553A1}.Release|x64.Build.0 = Release|x64
 		{337B20F4-428A-46B1-BF72-3E803DE553A1}.Release|x86.ActiveCfg = Release|Win32
 		{337B20F4-428A-46B1-BF72-3E803DE553A1}.Release|x86.Build.0 = Release|Win32
+		{E1DECD11-7C94-47E5-A6DD-B9509AAFB222}.Debug|x64.ActiveCfg = Debug|x64
+		{E1DECD11-7C94-47E5-A6DD-B9509AAFB222}.Debug|x64.Build.0 = Debug|x64
+		{E1DECD11-7C94-47E5-A6DD-B9509AAFB222}.Debug|x86.ActiveCfg = Debug|Win32
+		{E1DECD11-7C94-47E5-A6DD-B9509AAFB222}.Debug|x86.Build.0 = Debug|Win32
+		{E1DECD11-7C94-47E5-A6DD-B9509AAFB222}.Release|x64.ActiveCfg = Release|x64
+		{E1DECD11-7C94-47E5-A6DD-B9509AAFB222}.Release|x64.Build.0 = Release|x64
+		{E1DECD11-7C94-47E5-A6DD-B9509AAFB222}.Release|x86.ActiveCfg = Release|Win32
+		{E1DECD11-7C94-47E5-A6DD-B9509AAFB222}.Release|x86.Build.0 = Release|Win32
+		{F27E169E-2855-48EE-9DA0-4E7F33E8555D}.Debug|x64.ActiveCfg = Debug|x64
+		{F27E169E-2855-48EE-9DA0-4E7F33E8555D}.Debug|x64.Build.0 = Debug|x64
+		{F27E169E-2855-48EE-9DA0-4E7F33E8555D}.Debug|x86.ActiveCfg = Debug|Win32
+		{F27E169E-2855-48EE-9DA0-4E7F33E8555D}.Debug|x86.Build.0 = Debug|Win32
+		{F27E169E-2855-48EE-9DA0-4E7F33E8555D}.Release|x64.ActiveCfg = Release|x64
+		{F27E169E-2855-48EE-9DA0-4E7F33E8555D}.Release|x64.Build.0 = Release|x64
+		{F27E169E-2855-48EE-9DA0-4E7F33E8555D}.Release|x86.ActiveCfg = Release|Win32
+		{F27E169E-2855-48EE-9DA0-4E7F33E8555D}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
